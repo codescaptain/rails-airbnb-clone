@@ -2,6 +2,7 @@ import {Controller} from "@hotwired/stimulus"
 import {toggle, enter, leave} from 'el-transition'
 
 export default class extends Controller {
+    static targets = ["openUserMenu"]
     connect() {
         document.getElementById('modal-wrapper').addEventListener('click', this.closeModal)
     }

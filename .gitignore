@@ -7,6 +7,8 @@
 # Ignore bundler config.
 /.bundle
 .idea/
+.env
+.env.local
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
